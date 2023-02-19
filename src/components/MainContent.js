@@ -11,8 +11,8 @@ export default function MainComponent(){
                 <p>ankit.website</p>
             </section>
             <section className="link-section">
-                <a href="#" className="link email" ><img src={MailIcon}></img>Email</a>
-                <a href="#" className="link linkedin"><img src={LinkedInIcon}></img>LinkedIn</a>
+                <a href="mailto: ankitdasout@gmail.com" target="_blank" className="link email" ><img src={MailIcon}></img>Email</a>
+                <a href="https://www.linkedin.com/in/bolankit/" target="_blank" className="link linkedin"><img src={LinkedInIcon}></img>LinkedIn</a>
             </section>
             <section className="about-section">
                 <h2>About</h2>
@@ -23,9 +23,8 @@ export default function MainComponent(){
             </section>
             <section className="interest-section">
                 <h2>Interests</h2>
-                <p>Food expert. Music scholar. Reader. Internet 
-                    fanatic. Bacon buff. Entrepreneur. Travel geek.
-                     Pop culture ninja. Coffee fanatic.</p>
+                <p>Reader. Music scholar. Food expert. Long term Investor. Internet 
+                    fanatic. Part time Thinker.</p>
             </section>
         </main>
     )
